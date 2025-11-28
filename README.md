@@ -37,8 +37,15 @@ Ensure you have the **`Basic 5e 2025 Layout.json`** file saved to your computer.
 3. Scroll to the **Layouts** section.  
 4. Click **Import Layout** (download arrow icon).  
 5. Select the `Basic 5e 2025 Layout.json` file.  
+6. Restart Obsidian
 
-The layout should now appear in your list of available layouts.
+The layout should now appear in your list of available layouts and can be set as a default layout.
+
+> [!warning]
+> **Do not try to import a layout with parenthesis `()` or other symbols.**  
+> Doing so can cause issues with the plugin.  
+> [Related issue](https://github.com/javalent/fantasy-statblocks/issues/511)
+
 
 ---
 
@@ -79,11 +86,11 @@ For the best results, ensure your monster images are cropped square or close to 
   This appears to be a limitation of the plugin in its current state.  
   So far, this only affects the **Beholder** statblock.
 
-- **Delayed loading when “Parse Frontmatter” is enabled.**  
-  Statblocks will not render immediately while the plugin is still parsing frontmatter.  
-  Once the plugin finishes, simply click the file again to render as expected.
-
 - **Legendary Actions description loads slightly late.**  
   This is mostly a non-issue but worth noting: the description text for Legendary Actions appears moments after the rest of the block because there is no clean injection point *after* the trait header in the layout.
+
+- **Delayed loading when “Parse Frontmatter” is enabled.**  
+  This is also a non-issue but I wanted to note. Statblocks will not render immediately while the plugin is still parsing frontmatter.  
+  Once the plugin finishes, simply click the file again to render as expected. This is not a layout issue. The more frontmatter monsters in your vault the longer this can take.
 
 
