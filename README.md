@@ -53,7 +53,7 @@ image: [[MyBeholderImage.png]]
 stats:
 ```
 
-## ⚠️ Compatibil/ity & Limitations
+## ⚠️ Compatibility & Limitations
 ### ITS Theme
 
 This layout does not currently support specific ITS Theme styling features. It is fully functional and usable in its current state, but it may not inherit ITS-specific aesthetic overrides or custom theme hooks.
@@ -61,3 +61,29 @@ This layout does not currently support specific ITS Theme styling features. It i
 ### Image Aspect Ratio
 
 For the best results, ensure your monster images are cropped square or close to square. While the layout will handle most aspect ratios gracefully, square or near-square images produce the most consistent visual results.
+
+## 📸 Screenshots
+
+## Samples
+![Kraken](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Kraken.PNG)
+
+![Kenku](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Kenku.PNG)
+
+![Druid](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Druid.PNG)
+
+![Beholder](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Beholder.PNG)
+
+## 🐞 Known Issues
+
+- **Multiline numbered spells under an Action cannot break across columns.**  
+  This appears to be a limitation of the plugin in its current state.  
+  So far, this only affects the **Beholder** statblock.
+
+- **Delayed loading when “Parse Frontmatter” is enabled.**  
+  Statblocks will not render immediately while the plugin is still parsing frontmatter.  
+  Once the plugin finishes, simply click the file again to render as expected.
+
+- **Legendary Actions description loads slightly late.**  
+  This is mostly a non-issue but worth noting: the description text for Legendary Actions appears moments after the rest of the block because there is no clean injection point *after* the trait header in the layout.
+
+
