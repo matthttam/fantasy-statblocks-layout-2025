@@ -72,13 +72,13 @@ For the best results, ensure your monster images are cropped square or close to 
 ## 📸 Screenshots
 
 ## Samples
-![Kraken](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Kraken.PNG)
+![Kraken](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Kraken.PNG?raw=true)
 
-![Kenku](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Kenku.PNG)
+![Kenku](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Kenku.PNG?raw=true)
 
-![Druid](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Druid.PNG)
+![Druid](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Druid.PNG?raw=true)
 
-![Beholder](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Beholder.PNG)
+![Beholder](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Beholder.PNG?raw=true)
 
 ## 🐞 Known Issues
 
