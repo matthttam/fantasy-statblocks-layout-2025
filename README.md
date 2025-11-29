@@ -72,19 +72,15 @@ For the best results, ensure your monster images are cropped square or close to 
 ## 📸 Screenshots
 
 ## Samples
-![Kraken](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Kraken.PNG)
+![Kraken](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Kraken.PNG)
 
-![Kenku](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Kenku.PNG)
+![Kenku](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Kenku.PNG)
 
-![Druid](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Druid.PNG)
+![Druid](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Druid.PNG)
 
-![Beholder](https://raw.githubusercontent.com/matthttam/fantasy-statblocks-layout-2025/refs/heads/main/screenshots/Beholder.PNG)
+![Beholder](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.2/screenshots/Druid.PNG?raw=true/Beholder.PNG)
 
 ## 🐞 Known Issues
-
-- **Multiline numbered spells under an Action cannot break across columns.**  
-  This appears to be a limitation of the plugin in its current state.  
-  So far, this only affects the **Beholder** statblock.
 
 - **Legendary Actions description loads slightly late.**  
   This is mostly a non-issue but worth noting: the description text for Legendary Actions appears moments after the rest of the block because there is no clean injection point *after* the trait header in the layout.
