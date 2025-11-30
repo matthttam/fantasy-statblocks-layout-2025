@@ -72,21 +72,18 @@ For the best results, ensure your monster images are cropped square or close to 
 ## 📸 Screenshots
 
 ## Samples
-![Kraken](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Kraken.PNG?raw=true)
+![Kraken](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.4/screenshots/Kraken%20(XMM).png?raw=true)
 
-![Kenku](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Kenku.PNG?raw=true)
+![Kenku](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.4/screenshots/Kenku%20(XMM).png?raw=true)
 
-![Druid](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Druid.PNG?raw=true)
+![Druid](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.4/screenshots/Druid%20(XMM).png?raw=true)
 
-![Beholder](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.3/screenshots/Beholder.PNG?raw=true)
+![Beholder](https://github.com/matthttam/fantasy-statblocks-layout-2025/blob/v1.0.4/screenshots/Beholder%20(XMM).png?raw=true)
 
 ## 🐞 Known Issues
 
 - **Legendary Actions description loads slightly late.**  
   This is mostly a non-issue but worth noting: the description text for Legendary Actions appears moments after the rest of the block because there is no clean injection point *after* the trait header in the layout.
 
-- **Delayed loading when “Parse Frontmatter” is enabled.**  
-  This is also a non-issue but I wanted to note. Statblocks will not render immediately while the plugin is still parsing frontmatter.  
-  Once the plugin finishes, simply click the file again to render as expected. This is not a layout issue. The more frontmatter monsters in your vault the longer this can take.
 
 
